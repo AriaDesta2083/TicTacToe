@@ -325,3 +325,6 @@ output_menu = BgMenu()
 output_btn_play = BtnPlay()
 output_btn_mp = BtnMP()
 output_audio = BtnAudio()
+
+if __name__ == '__main__':
+    mygui.mainloop()
