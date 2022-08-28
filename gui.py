@@ -315,16 +315,16 @@ def restart():
     output_btn_mp = BtnMP()
     output_board = Board()
 
-pygame.mixer.init()
-pygame.mixer.music.load(relative_to_assets('a7xNM.mp3'))
-pygame.mixer.music.play(loops=100)
-output_bg_board = BgBoard()
-output_board = Board()
-output_title = CreateLabel(text='Tic Tac Toe',x=584, y=113)
-output_menu = BgMenu()
-output_btn_play = BtnPlay()
-output_btn_mp = BtnMP()
-output_audio = BtnAudio()
-
-if __name__ == '__main__':
+if __name__ != '__main__':
+    pygame.mixer.init()
+    pygame.mixer.music.load(relative_to_assets('a7xNM.mp3'))
+    pygame.mixer.music.play(loops=100)
+    pygame.mixer.music.set_volume(0.1)
+    output_bg_board = BgBoard()
+    output_board = Board()
+    output_title = CreateLabel(text='Tic Tac Toe',x=584, y=113)
+    output_menu = BgMenu()
+    output_btn_play = BtnPlay()
+    output_btn_mp = BtnMP()
+    output_audio = BtnAudio()
     mygui.mainloop()
