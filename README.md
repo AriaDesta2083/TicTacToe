@@ -1,4 +1,4 @@
 # TicTacToe
 Project FGA Python
 
-Videofor this project : https://youtu.be/TEexY47vRlo
+Video for this project : https://youtu.be/TEexY47vRlo
