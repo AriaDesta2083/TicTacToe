@@ -1,6 +1,6 @@
 # https://github.com/AriaDesta2083/TicTacToe.git
 from tkinter import *
-from tictactoe import *
+from build.tictactoe import *
 from pathlib import Path
 from tkinter import messagebox
 import pygame

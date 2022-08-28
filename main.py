@@ -2,4 +2,4 @@
 # https://youtu.be/TEexY47vRlo
 
 if __name__ == '__main__':
-    from gui import *
+    from build import gui
