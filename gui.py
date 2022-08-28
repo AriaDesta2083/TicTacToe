@@ -319,7 +319,7 @@ if __name__ != '__main__':
     pygame.mixer.init()
     pygame.mixer.music.load(relative_to_assets('a7xNM.mp3'))
     pygame.mixer.music.play(loops=100)
-    pygame.mixer.music.set_volume(0.1)
+    pygame.mixer.music.set_volume(0.5)
     output_bg_board = BgBoard()
     output_board = Board()
     output_title = CreateLabel(text='Tic Tac Toe',x=584, y=113)
